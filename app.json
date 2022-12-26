@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "morse App",
+    "slug": "morseApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/morse.png",
+    "splash": {
+      "image": "./assets/morseBackground.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        
+      }
+    },
+    "android": {
+      "package": "matrixbet.morseapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/morse.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        
+      }
+    },
+    "web": {
+      "favicon": "./assets/morseBackground.png"
+    }
+  }
+}
